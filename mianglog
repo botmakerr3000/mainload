@@ -1,0 +1,702 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local topframe = Instance.new("Frame")
+local KK = Instance.new("TextLabel")
+local k1 = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local main = Instance.new("Frame")
+local catM = Instance.new("Frame")
+local guis = Instance.new("TextButton")
+local scripts = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
+local credit = Instance.new("TextButton")
+local scriptsF = Instance.new("Frame")
+local f3x = Instance.new("TextButton")
+local grabknife = Instance.new("TextButton")
+local asssassinaimbot = Instance.new("TextButton")
+local Arsenalaim = Instance.new("TextButton")
+local ninja = Instance.new("TextButton")
+local creditF = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local teleportF = Instance.new("Frame")
+local teleportIDbox = Instance.new("TextBox")
+local teleportbutton = Instance.new("TextButton")
+local adoptandraiseteleport = Instance.new("TextButton")
+local rocitizensTeleport = Instance.new("TextButton")
+local phantomforcesteleport = Instance.new("TextButton")
+local Arsenalteleport = Instance.new("TextButton")
+local guisF = Instance.new("Frame")
+local Rosehub = Instance.new("TextButton")
+local urmom = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local brackhub = Instance.new("TextButton")
+local nebula = Instance.new("TextButton")
+local adoptandraise = Instance.new("TextButton")
+local p1p1 = Instance.new("TextButton")
+local p1p2 = Instance.new("TextButton")
+local guisF2 = Instance.new("Frame")
+local Rosehubv3 = Instance.new("TextButton")
+local p2p1 = Instance.new("TextButton")
+local p2p2 = Instance.new("TextButton")
+local xbutton = Instance.new("TextButton")
+local topframe_2 = Instance.new("Frame")
+local KKl = Instance.new("TextLabel")
+local k1l = Instance.new("TextLabel")
+local k1l_2 = Instance.new("TextLabel")
+local Loginframe = Instance.new("Frame")
+local loginbox = Instance.new("TextBox")
+local loginbutton = Instance.new("TextButton")
+local xbuttonL = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+topframe.Name = "topframe"
+topframe.Parent = ScreenGui
+topframe.Active = true
+topframe.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+topframe.BorderSizePixel = 0
+topframe.Draggable = true
+topframe.Position = UDim2.new(0.4906542, 0, 0.32676661, 0)
+topframe.Size = UDim2.new(0, 446, 0, 69)
+
+KK.Name = "KK"
+KK.Parent = topframe
+KK.BackgroundColor3 = Color3.new(1, 1, 1)
+KK.BackgroundTransparency = 1
+KK.Position = UDim2.new(-3.7252903e-09, 0, 0, 0)
+KK.Size = UDim2.new(0, 30, 0, 30)
+KK.Font = Enum.Font.SourceSansItalic
+KK.Text = "K"
+KK.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+KK.TextSize = 25
+
+k1.Name = "k1"
+k1.Parent = topframe
+k1.BackgroundColor3 = Color3.new(1, 1, 1)
+k1.BackgroundTransparency = 1
+k1.Position = UDim2.new(0.0388064943, 0, 0, 0)
+k1.Size = UDim2.new(0, 30, 0, 30)
+k1.Font = Enum.Font.SourceSansItalic
+k1.Text = "ukto"
+k1.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+k1.TextSize = 17
+
+version.Name = "version"
+version.Parent = topframe
+version.BackgroundColor3 = Color3.new(1, 1, 1)
+version.BackgroundTransparency = 1
+version.Position = UDim2.new(0.41997236, 0, 0, 0)
+version.Size = UDim2.new(0, 71, 0, 30)
+version.Font = Enum.Font.SourceSansItalic
+version.Text = "V.1"
+version.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+version.TextSize = 15
+
+main.Name = "main"
+main.Parent = topframe
+main.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(-0.00101296464, 0, 0.434782594, 0)
+main.Size = UDim2.new(0, 446, 0, 359)
+
+catM.Name = "catM"
+catM.Parent = main
+catM.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+catM.BorderSizePixel = 0
+catM.Size = UDim2.new(0, 98, 0, 359)
+
+guis.Name = "guis"
+guis.Parent = catM
+guis.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+guis.BorderSizePixel = 0
+guis.Position = UDim2.new(0, 0, 0.0269461069, 0)
+guis.Size = UDim2.new(0, 98, 0, 50)
+guis.Font = Enum.Font.SourceSansItalic
+guis.Text = "Gui's"
+guis.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+guis.TextSize = 24
+
+scripts.Name = "scripts"
+scripts.Parent = catM
+scripts.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0, 0, 0.251497, 0)
+scripts.Size = UDim2.new(0, 98, 0, 50)
+scripts.Font = Enum.Font.SourceSansItalic
+scripts.Text = "Script's"
+scripts.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+scripts.TextSize = 24
+
+teleport.Name = "teleport"
+teleport.Parent = catM
+teleport.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+teleport.BorderSizePixel = 0
+teleport.Position = UDim2.new(0, 0, 0.709580839, 0)
+teleport.Size = UDim2.new(0, 98, 0, 50)
+teleport.Font = Enum.Font.SourceSansItalic
+teleport.Text = "Teleport"
+teleport.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+teleport.TextSize = 24
+
+credit.Name = "credit"
+credit.Parent = catM
+credit.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+credit.BorderSizePixel = 0
+credit.Position = UDim2.new(0, 0, 0.485029936, 0)
+credit.Size = UDim2.new(0, 98, 0, 50)
+credit.Font = Enum.Font.SourceSansItalic
+credit.Text = "Credit's"
+credit.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+credit.TextSize = 24
+
+scriptsF.Name = "scriptsF"
+scriptsF.Parent = main
+scriptsF.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+scriptsF.BorderSizePixel = 0
+scriptsF.Position = UDim2.new(0.253363222, 0, 0.116666667, 0)
+scriptsF.Size = UDim2.new(0, 311, 0, 305)
+
+f3x.Name = "f3x"
+f3x.Parent = scriptsF
+f3x.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+f3x.BorderSizePixel = 0
+f3x.Position = UDim2.new(0.0514469445, 0, 0.0426229499, 0)
+f3x.Size = UDim2.new(0, 129, 0, 63)
+f3x.Font = Enum.Font.SourceSansItalic
+f3x.Text = "F3X"
+f3x.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+f3x.TextSize = 24
+
+grabknife.Name = "grabknife"
+grabknife.Parent = scriptsF
+grabknife.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+grabknife.BorderSizePixel = 0
+grabknife.Position = UDim2.new(0.533762038, 0, 0.0426229462, 0)
+grabknife.Size = UDim2.new(0, 129, 0, 63)
+grabknife.Font = Enum.Font.SourceSansItalic
+grabknife.Text = "GrabKnife v4"
+grabknife.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+grabknife.TextSize = 24
+
+asssassinaimbot.Name = "asssassinaimbot"
+asssassinaimbot.Parent = scriptsF
+asssassinaimbot.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+asssassinaimbot.BorderSizePixel = 0
+asssassinaimbot.Position = UDim2.new(0.527331173, 0, 0.321311474, 0)
+asssassinaimbot.Size = UDim2.new(0, 129, 0, 63)
+asssassinaimbot.Font = Enum.Font.SourceSansItalic
+asssassinaimbot.Text = "Assassin aimbot"
+asssassinaimbot.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+asssassinaimbot.TextScaled = true
+asssassinaimbot.TextSize = 24
+asssassinaimbot.TextWrapped = true
+
+Arsenalaim.Name = "Arsenalaim"
+Arsenalaim.Parent = scriptsF
+Arsenalaim.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Arsenalaim.BorderSizePixel = 0
+Arsenalaim.Position = UDim2.new(0.0514469147, 0, 0.321311474, 0)
+Arsenalaim.Size = UDim2.new(0, 129, 0, 63)
+Arsenalaim.Font = Enum.Font.SourceSansItalic
+Arsenalaim.Text = "Arsenal Aim"
+Arsenalaim.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+Arsenalaim.TextScaled = true
+Arsenalaim.TextSize = 24
+Arsenalaim.TextWrapped = true
+
+ninja.Name = "ninja"
+ninja.Parent = scriptsF
+ninja.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+ninja.BorderSizePixel = 0
+ninja.Position = UDim2.new(0.0514469147, 0, 0.596721292, 0)
+ninja.Size = UDim2.new(0, 129, 0, 63)
+ninja.Font = Enum.Font.SourceSansItalic
+ninja.Text = "Ninja legends"
+ninja.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+ninja.TextScaled = true
+ninja.TextSize = 24
+ninja.TextWrapped = true
+
+creditF.Name = "creditF"
+creditF.Parent = main
+creditF.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+creditF.BorderSizePixel = 0
+creditF.Position = UDim2.new(0.253363222, 0, 0.116666667, 0)
+creditF.Size = UDim2.new(0, 311, 0, 305)
+creditF.Visible = false
+
+TextLabel.Parent = creditF
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 0, 0.0622830838, 0)
+TextLabel.Size = UDim2.new(0, 311, 0, 266)
+TextLabel.Font = Enum.Font.SourceSansItalic
+TextLabel.Text = "Made by  bigpoopyummyfart"
+TextLabel.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+TextLabel.TextSize = 25
+TextLabel.TextWrapped = true
+
+teleportF.Name = "teleportF"
+teleportF.Parent = main
+teleportF.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+teleportF.BorderSizePixel = 0
+teleportF.Position = UDim2.new(0.253363222, 0, 0.116666667, 0)
+teleportF.Size = UDim2.new(0, 311, 0, 305)
+teleportF.Visible = false
+
+teleportIDbox.Name = "teleportIDbox"
+teleportIDbox.Parent = teleportF
+teleportIDbox.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+teleportIDbox.BorderSizePixel = 0
+teleportIDbox.Position = UDim2.new(0.0289389063, 0, 0.219672129, 0)
+teleportIDbox.Size = UDim2.new(0, 200, 0, 50)
+teleportIDbox.Font = Enum.Font.SourceSans
+teleportIDbox.Text = "Place ID HERE"
+teleportIDbox.TextColor3 = Color3.new(0, 0, 0)
+teleportIDbox.TextSize = 30
+
+teleportbutton.Name = "teleportbutton"
+teleportbutton.Parent = teleportF
+teleportbutton.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+teleportbutton.BorderSizePixel = 0
+teleportbutton.Position = UDim2.new(0.122186497, 0, 0.439344168, 0)
+teleportbutton.Size = UDim2.new(0, 142, 0, 50)
+teleportbutton.Font = Enum.Font.SourceSansItalic
+teleportbutton.Text = "Teleport"
+teleportbutton.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+teleportbutton.TextSize = 24
+
+adoptandraiseteleport.Name = "adoptandraiseteleport"
+adoptandraiseteleport.Parent = teleportF
+adoptandraiseteleport.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+adoptandraiseteleport.BorderSizePixel = 0
+adoptandraiseteleport.Position = UDim2.new(0.765273333, 0, 0.0655736774, 0)
+adoptandraiseteleport.Size = UDim2.new(0, 64, 0, 78)
+adoptandraiseteleport.Font = Enum.Font.SourceSansItalic
+adoptandraiseteleport.Text = "Adopt and Raise"
+adoptandraiseteleport.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+adoptandraiseteleport.TextSize = 24
+adoptandraiseteleport.TextWrapped = true
+
+rocitizensTeleport.Name = "rocitizensTeleport"
+rocitizensTeleport.Parent = teleportF
+rocitizensTeleport.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+rocitizensTeleport.BorderSizePixel = 0
+rocitizensTeleport.Position = UDim2.new(0.765273333, 0, 0.370491683, 0)
+rocitizensTeleport.Size = UDim2.new(0, 64, 0, 78)
+rocitizensTeleport.Font = Enum.Font.SourceSansItalic
+rocitizensTeleport.Text = "RoCitizens"
+rocitizensTeleport.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+rocitizensTeleport.TextSize = 24
+rocitizensTeleport.TextWrapped = true
+
+phantomforcesteleport.Name = "phantomforcesteleport"
+phantomforcesteleport.Parent = teleportF
+phantomforcesteleport.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+phantomforcesteleport.BorderSizePixel = 0
+phantomforcesteleport.Position = UDim2.new(0.0321543403, 0, 0.836065471, 0)
+phantomforcesteleport.Size = UDim2.new(0, 144, 0, 43)
+phantomforcesteleport.Font = Enum.Font.SourceSansItalic
+phantomforcesteleport.Text = "Phantom Forces"
+phantomforcesteleport.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+phantomforcesteleport.TextSize = 24
+phantomforcesteleport.TextWrapped = true
+
+Arsenalteleport.Name = "Arsenalteleport"
+Arsenalteleport.Parent = teleportF
+Arsenalteleport.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+Arsenalteleport.BorderSizePixel = 0
+Arsenalteleport.Position = UDim2.new(0.53697747, 0, 0.836065471, 0)
+Arsenalteleport.Size = UDim2.new(0, 135, 0, 43)
+Arsenalteleport.Font = Enum.Font.SourceSansItalic
+Arsenalteleport.Text = "Arsenal"
+Arsenalteleport.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+Arsenalteleport.TextSize = 24
+Arsenalteleport.TextWrapped = true
+
+guisF.Name = "guisF"
+guisF.Parent = main
+guisF.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+guisF.BorderSizePixel = 0
+guisF.Position = UDim2.new(0.253363222, 0, 0.116666667, 0)
+guisF.Size = UDim2.new(0, 311, 0, 305)
+guisF.Visible = false
+
+Rosehub.Name = "Rosehub"
+Rosehub.Parent = guisF
+Rosehub.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Rosehub.BorderSizePixel = 0
+Rosehub.Position = UDim2.new(0.0514469445, 0, 0.0426229499, 0)
+Rosehub.Size = UDim2.new(0, 129, 0, 63)
+Rosehub.Font = Enum.Font.SourceSansItalic
+Rosehub.Text = "RoseHubV.1"
+Rosehub.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+Rosehub.TextSize = 24
+
+urmom.Name = "urmom"
+urmom.Parent = guisF
+urmom.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+urmom.BorderSizePixel = 0
+urmom.Position = UDim2.new(0.527331173, 0, 0.0426229499, 0)
+urmom.Size = UDim2.new(0, 129, 0, 63)
+urmom.Font = Enum.Font.SourceSansItalic
+urmom.Text = "YourMom gui"
+urmom.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+urmom.TextSize = 20
+urmom.TextWrapped = true
+
+Dex.Name = "Dex"
+Dex.Parent = guisF
+Dex.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.0514469445, 0, 0.344262302, 0)
+Dex.Size = UDim2.new(0, 129, 0, 63)
+Dex.Font = Enum.Font.SourceSansItalic
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+Dex.TextSize = 24
+
+brackhub.Name = "brackhub"
+brackhub.Parent = guisF
+brackhub.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+brackhub.BorderSizePixel = 0
+brackhub.Position = UDim2.new(0.527331173, 0, 0.344262302, 0)
+brackhub.Size = UDim2.new(0, 129, 0, 63)
+brackhub.Font = Enum.Font.SourceSansItalic
+brackhub.Text = "BrackHub V4"
+brackhub.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+brackhub.TextSize = 20
+brackhub.TextWrapped = true
+
+nebula.Name = "nebula"
+nebula.Parent = guisF
+nebula.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+nebula.BorderSizePixel = 0
+nebula.Position = UDim2.new(0.527331173, 0, 0.622950792, 0)
+nebula.Size = UDim2.new(0, 129, 0, 63)
+nebula.Font = Enum.Font.SourceSansItalic
+nebula.Text = "NebulaHub"
+nebula.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+nebula.TextSize = 20
+nebula.TextWrapped = true
+
+adoptandraise.Name = "adoptandraise"
+adoptandraise.Parent = guisF
+adoptandraise.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+adoptandraise.BorderSizePixel = 0
+adoptandraise.Position = UDim2.new(0.0514469445, 0, 0.622950792, 0)
+adoptandraise.Size = UDim2.new(0, 129, 0, 63)
+adoptandraise.Font = Enum.Font.SourceSansItalic
+adoptandraise.Text = "Adopt And raise"
+adoptandraise.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+adoptandraise.TextScaled = true
+adoptandraise.TextSize = 24
+adoptandraise.TextWrapped = true
+
+p1p1.Name = "p1p1"
+p1p1.Parent = guisF
+p1p1.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+p1p1.BorderSizePixel = 0
+p1p1.Position = UDim2.new(0, 0, 0.861823618, 0)
+p1p1.Size = UDim2.new(0, 51, 0, 42)
+p1p1.Font = Enum.Font.SourceSansItalic
+p1p1.Text = "1"
+p1p1.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+p1p1.TextSize = 24
+
+p1p2.Name = "p1p2"
+p1p2.Parent = guisF
+p1p2.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+p1p2.BorderSizePixel = 0
+p1p2.Position = UDim2.new(0.176848888, 0, 0.861823618, 0)
+p1p2.Size = UDim2.new(0, 51, 0, 42)
+p1p2.Font = Enum.Font.SourceSansItalic
+p1p2.Text = "2"
+p1p2.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+p1p2.TextSize = 24
+
+guisF2.Name = "guisF2"
+guisF2.Parent = main
+guisF2.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+guisF2.BorderSizePixel = 0
+guisF2.Position = UDim2.new(0.253363222, 0, 0.116666667, 0)
+guisF2.Size = UDim2.new(0, 311, 0, 305)
+guisF2.Visible = false
+
+Rosehubv3.Name = "Rosehubv3"
+Rosehubv3.Parent = guisF2
+Rosehubv3.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Rosehubv3.BorderSizePixel = 0
+Rosehubv3.Position = UDim2.new(0.0514469445, 0, 0.0426229499, 0)
+Rosehubv3.Size = UDim2.new(0, 129, 0, 63)
+Rosehubv3.Font = Enum.Font.SourceSansItalic
+Rosehubv3.Text = "RoseHubV.3"
+Rosehubv3.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+Rosehubv3.TextSize = 24
+
+p2p1.Name = "p2p1"
+p2p1.Parent = guisF2
+p2p1.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+p2p1.BorderSizePixel = 0
+p2p1.Position = UDim2.new(0, 0, 0.861823618, 0)
+p2p1.Size = UDim2.new(0, 51, 0, 42)
+p2p1.Font = Enum.Font.SourceSansItalic
+p2p1.Text = "1"
+p2p1.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+p2p1.TextSize = 24
+
+p2p2.Name = "p2p2"
+p2p2.Parent = guisF2
+p2p2.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+p2p2.BorderSizePixel = 0
+p2p2.Position = UDim2.new(0.176848888, 0, 0.861823618, 0)
+p2p2.Size = UDim2.new(0, 51, 0, 42)
+p2p2.Font = Enum.Font.SourceSansItalic
+p2p2.Text = "2"
+p2p2.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+p2p2.TextSize = 24
+
+xbutton.Name = "xbutton"
+xbutton.Parent = topframe
+xbutton.BackgroundColor3 = Color3.new(1, 1, 1)
+xbutton.BackgroundTransparency = 1
+xbutton.Position = UDim2.new(0.874439478, 0, -0.144927531, 0)
+xbutton.Size = UDim2.new(0, 75, 0, 50)
+xbutton.Font = Enum.Font.SourceSansItalic
+xbutton.Text = "X"
+xbutton.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+xbutton.TextSize = 20
+
+topframe_2.Name = "topframe"
+topframe_2.Parent = ScreenGui
+topframe_2.Active = true
+topframe_2.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+topframe_2.BorderSizePixel = 0
+topframe_2.Draggable = true
+topframe_2.Position = UDim2.new(-0.0337686837, 378, 0.278855085, 100)
+topframe_2.Size = UDim2.new(0, 234, 0, 26)
+
+KKl.Name = "KKl"
+KKl.Parent = topframe_2
+KKl.BackgroundColor3 = Color3.new(1, 1, 1)
+KKl.BackgroundTransparency = 1
+KKl.Position = UDim2.new(-3.7252903e-09, 0, 0, 0)
+KKl.Size = UDim2.new(0, 30, 0, 30)
+KKl.Font = Enum.Font.SourceSansItalic
+KKl.Text = "K"
+KKl.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+KKl.TextSize = 25
+
+k1l.Name = "k1l"
+k1l.Parent = topframe_2
+k1l.BackgroundColor3 = Color3.new(1, 1, 1)
+k1l.BackgroundTransparency = 1
+k1l.Position = UDim2.new(0.0769230872, 0, 0, 0)
+k1l.Size = UDim2.new(0, 30, 0, 30)
+k1l.Font = Enum.Font.SourceSansItalic
+k1l.Text = "ukto"
+k1l.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+k1l.TextSize = 17
+
+k1l_2.Name = "k1l"
+k1l_2.Parent = topframe_2
+k1l_2.BackgroundColor3 = Color3.new(1, 1, 1)
+k1l_2.BackgroundTransparency = 1
+k1l_2.Position = UDim2.new(0.337606847, 0, 0, 0)
+k1l_2.Size = UDim2.new(0, 30, 0, 30)
+k1l_2.Font = Enum.Font.SourceSansItalic
+k1l_2.Text = "Owner Panel"
+k1l_2.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+k1l_2.TextSize = 13
+
+Loginframe.Name = "Loginframe"
+Loginframe.Parent = topframe_2
+Loginframe.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+Loginframe.BorderSizePixel = 0
+Loginframe.Position = UDim2.new(-0.00417369604, 0, 0.974484444, 0)
+Loginframe.Size = UDim2.new(0, 234, 0, 251)
+
+loginbox.Name = "loginbox"
+loginbox.Parent = Loginframe
+loginbox.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+loginbox.BorderColor3 = Color3.new(0, 0, 0)
+loginbox.BorderSizePixel = 2
+loginbox.Position = UDim2.new(0.0726495758, 0, 0.27888447, 0)
+loginbox.Size = UDim2.new(0, 200, 0, 49)
+loginbox.Font = Enum.Font.SourceSans
+loginbox.Text = ""
+loginbox.TextColor3 = Color3.new(0, 0, 0)
+loginbox.TextSize = 14
+
+loginbutton.Name = "loginbutton"
+loginbutton.Parent = Loginframe
+loginbutton.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+loginbutton.BorderColor3 = Color3.new(0, 0, 0)
+loginbutton.BorderSizePixel = 0
+loginbutton.Position = UDim2.new(0.282051295, 0, 0.617529869, 0)
+loginbutton.Size = UDim2.new(0, 101, 0, 50)
+loginbutton.Font = Enum.Font.SourceSansItalic
+loginbutton.Text = "Login"
+loginbutton.TextColor3 = Color3.new(0.831373, 0.552941, 0)
+loginbutton.TextSize = 30
+
+xbuttonL.Name = "xbuttonL"
+xbuttonL.Parent = topframe_2
+xbuttonL.BackgroundColor3 = Color3.new(1, 1, 1)
+xbuttonL.BackgroundTransparency = 1
+xbuttonL.Position = UDim2.new(0.799145281, 0, -0.384615391, 0)
+xbuttonL.Size = UDim2.new(0, 61, 0, 50)
+xbuttonL.Font = Enum.Font.SourceSansItalic
+xbuttonL.Text = "X"
+xbuttonL.TextColor3 = Color3.new(0.815686, 0.545098, 0)
+xbuttonL.TextSize = 20
+
+guis.MouseButton1Click:connect(function()
+	guisF.Visible = true
+	creditF.Visible = false
+    teleportF.Visible = false
+	scriptsF.Visible = false
+end)
+credit.MouseButton1Click:connect(function()
+	guisF.Visible = false
+	creditF.Visible = true
+	teleportF.Visible = false
+	scriptsF.Visible = false
+end)
+scripts.MouseButton1Click:connect(function()
+	scriptsF.Visible = true
+	creditF.Visible = false
+	guisF.Visible = false
+	teleportF.Visible = false
+end)
+teleport.MouseButton1Click:Connect(function()
+	teleportF.Visible = true
+	creditF.Visible = false
+	guisF.Visible = false
+	scriptsF.Visible = false
+end)
+
+
+----------------------------------------------------------
+topframe.Active = true
+topframe.Draggable = true
+topframe_2.Active = true
+topframe_2.Draggable = true
+------------------------------------
+local TeleportService = game:GetService("TeleportService")
+local Place = teleportIDbox
+local player = game.Players.LocalPlayer
+teleportbutton.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+--------------------------------------------------------------
+Dex.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects('rbxassetid://2180084478')[1].Source)()
+end)
+Rosehub.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects('rbxassetid://4510607001')[1].Source)()
+end)
+brackhub.MouseButton1Click:connect(function()
+	_G.Settings = {
+["MAINCOLOR"]     = {Color3.fromRGB(0, 129, 189)};
+["BUTTONCOLOR"]   = {Color3.fromRGB(0, 111, 163)};
+["ACCENTCOLOR"]   = {Color3.fromRGB(0, 161, 236)};
+["HIDESHOWCOLOR"] = {Color3.fromRGB(0, 076, 112)};
+}
+loadstring(game:GetObjects("rbxassetid://693572038")[1].Source)()
+end)
+urmom.MouseButton1Click:connect(function()
+		loadstring(game:GetObjects('rbxassetid://289110135')[1].Source)()
+end)
+f3x.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://1059691823")[1].Source)()
+end)
+nebula.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4514780778")[1].Source)()
+end)
+---------------------------------------------------------------------------
+---------- TELEPORT'S DONT DELETE -----------------------------------------
+local TeleportService = game:GetService("TeleportService")
+local Place = 286090429
+local player = game.Players.LocalPlayer
+Arsenalteleport.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+local TeleportService = game:GetService("TeleportService")
+local Place = 137877687
+local player = game.Players.LocalPlayer
+rocitizensTeleport.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+local TeleportService = game:GetService("TeleportService")
+local Place = 926452503
+local player = game.Players.LocalPlayer
+adoptandraiseteleport.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+local TeleportService = game:GetService("TeleportService")
+local Place = 292439477
+local player = game.Players.LocalPlayer
+phantomforcesteleport.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+-------------------------------------------------------------------------
+--xbuttons--
+xbuttonL.MouseButton1Click:connect(function()
+	topframe_2.Visible = false
+end)
+xbutton.MouseButton1Click:connect(function()
+	topframe.Visible = false
+end)
+------------------------------------------------------------------------
+---login------
+loginbutton.MouseButton1Click:connect(function()
+	if loginbox.Text == "A7277C324E762EDDB2DD25F46F7CF" or loginbox.Text =="3C6CBA99DE25976AE667262B73147"  then
+		topframe.Visible = true
+		topframe_2.Visible = false
+	end
+end)
+
+----------------------------------------------------------------------------
+grabknife.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4518275870")[1].Source)() -- grab knife
+end)
+adoptandraise.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NTTaYCB9", true))()
+end)
+ p1p1.MouseButton1Click:connect(function()
+	guisF.Visible = true
+	guisF2.Visible = false
+end) 
+p1p2.MouseButton1Click:connect(function()
+	guisF2.Visible = true
+	guisF.Visible = false
+end)
+p2p1.MouseButton1Click:connect(function()
+	guisF.Visible = true
+	guisF2.Visible = false
+end)
+p2p2.MouseButton1Click:connect(function()
+	guisF2.Visible = true
+	guisF.Visible = false
+end)
+ninja.MouseButton1Click:connect(function()
+_G.PlaceLoopTP = false 
+loadstring(game:HttpGet(('https://pastebin.com/raw/sjVGvJ1S'),true))()
+end)
+Rosehubv3.MouseButton1Click:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/1BJj0fB4'),true))()
+end)
+Arsenalaim.MouseButton1Click:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/3ZWRrB9t'),true))()
+end)
+asssassinaimbot.MouseButton1Click:connect(function()
+loadstring(game:GetObjects("rbxassetid://4525834592")[1].Source)()
+end)
+-----------------------------
+topframe.Visible = false
+guisF2.Visible = false
