@@ -48,7 +48,7 @@ local Loginframe = Instance.new("Frame")
 local loginbox = Instance.new("TextBox")
 local loginbutton = Instance.new("TextButton")
 local xbuttonL = Instance.new("TextButton")
-
+local cbro = Instance.new("TextButton")
 
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -119,6 +119,19 @@ guis.Font = Enum.Font.SourceSansItalic
 guis.Text = "Gui's"
 guis.TextColor3 = Color3.new(0.815686, 0.545098, 0)
 guis.TextSize = 24
+
+cbro.Name = "cbro"
+cbro.Parent = scriptsF
+cbro.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+cbro.BorderSizePixel = 0
+cbro.Position = UDim2.new(0.527331173, 0, 0.596721292, 0)
+cbro.Size = UDim2.new(0, 129, 0, 63)
+cbro.Font = Enum.Font.SourceSansItalic
+cbro.Text = "Counter blox Aimbot"
+cbro.TextColor3 = Color3.fromRGB(207, 138, 0)
+cbro.TextScaled = true
+cbro.TextSize = 24.000
+cbro.TextWrapped = true
 
 scripts.Name = "scripts"
 scripts.Parent = catM
@@ -696,6 +709,9 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/3ZWRrB9t'),true))()
 end)
 asssassinaimbot.MouseButton1Click:connect(function()
 loadstring(game:GetObjects("rbxassetid://4525834592")[1].Source)()
+end)
+cbro.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NecessaryPaint/ur-mom/master/CBRO_Modded_Weapons.lua', true))()
 end)
 -----------------------------
 topframe.Visible = false
