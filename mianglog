@@ -668,7 +668,7 @@ end)
 ------------------------------------------------------------------------
 ---login------
 loginbutton.MouseButton1Click:connect(function()
-	if loginbox.Text == "A7277C324E762EDDB2DD25F46F7CF" or loginbox.Text =="3C6CBA99DE25976AE667262B73147"  then
+	if loginbox.Text == "joemama" or loginbox.Text =="mikewhochi"  then
 		topframe.Visible = true
 		topframe_2.Visible = false
 	end
