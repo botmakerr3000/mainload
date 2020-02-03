@@ -585,6 +585,7 @@ scripts.MouseButton1Click:connect(function()
 	creditF.Visible = false
 	guisF.Visible = false
 	teleportF.Visible = false
+	guisF2.Visible = false
 end)
 teleport.MouseButton1Click:Connect(function()
 	teleportF.Visible = true
