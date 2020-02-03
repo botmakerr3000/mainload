@@ -49,7 +49,7 @@ local loginbox = Instance.new("TextBox")
 local loginbutton = Instance.new("TextButton")
 local xbuttonL = Instance.new("TextButton")
 local cbro = Instance.new("TextButton")
-
+local inintyeild = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -84,6 +84,19 @@ k1.Font = Enum.Font.SourceSansItalic
 k1.Text = "ukto"
 k1.TextColor3 = Color3.new(0.815686, 0.545098, 0)
 k1.TextSize = 17
+
+inintyeild.Name = "inintyeild"
+inintyeild.Parent = scriptsF
+inintyeild.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+inintyeild.BorderSizePixel = 0
+inintyeild.Position = UDim2.new(0.286173642, 0, 0.836065471, 0)
+inintyeild.Size = UDim2.new(0, 129, 0, 45)
+inintyeild.Font = Enum.Font.SourceSansItalic
+inintyeild.Text = "Yeild admin"
+inintyeild.TextColor3 = Color3.fromRGB(207, 138, 0)
+inintyeild.TextScaled = true
+inintyeild.TextSize = 24.000
+inintyeild.TextWrapped = true
 
 version.Name = "version"
 version.Parent = topframe
@@ -713,6 +726,9 @@ loadstring(game:GetObjects("rbxassetid://4525834592")[1].Source)()
 end)
 cbro.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/NecessaryPaint/ur-mom/master/CBRO_Modded_Weapons.lua', true))()
+end)
+inintyeild.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 -----------------------------
 topframe.Visible = false
