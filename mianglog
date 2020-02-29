@@ -614,10 +614,11 @@ topframe.Draggable = true
 topframe_2.Active = true
 topframe_2.Draggable = true
 ------------------------------------
+
+teleportbutton.MouseButton1Click:connect(function()
 local TeleportService = game:GetService("TeleportService")
 local Place = teleportIDbox
 local player = game.Players.LocalPlayer
-teleportbutton.MouseButton1Click:connect(function()
 TeleportService:Teleport(Place, player)
 end)
 --------------------------------------------------------------
