@@ -1,0 +1,219 @@
+-- Gui to Lua
+-- Version: 3.1
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local arsenal = Instance.new("TextButton")
+local name = Instance.new("TextLabel")
+local fnfautoplayer = Instance.new("TextButton")
+local rejoingame = Instance.new("TextButton")
+local deletegui = Instance.new("TextButton")
+local esp = Instance.new("TextButton")
+local dahood = Instance.new("TextButton")
+local darkhub = Instance.new("TextButton")
+local drahubgamebutton = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local gamelist = Instance.new("TextLabel")
+local closelist = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
+
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.163512483, 0, 0.1757925, 0)
+Frame.Size = UDim2.new(0, 175, 0, 218)
+
+arsenal.Name = "arsenal"
+arsenal.Parent = Frame
+arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arsenal.Position = UDim2.new(0.593809485, 0, 0.176923066, 0)
+arsenal.Size = UDim2.new(0, 71, 0, 63)
+arsenal.Font = Enum.Font.SourceSans
+arsenal.Text = "arsenal"
+arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+arsenal.TextScaled = true
+arsenal.TextSize = 14.000
+arsenal.TextWrapped = true
+
+name.Name = "name"
+name.Parent = Frame
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.Size = UDim2.new(0, 69, 0, 34)
+name.Font = Enum.Font.SourceSans
+name.Text = "scripts"
+name.TextColor3 = Color3.fromRGB(0, 0, 0)
+name.TextScaled = true
+name.TextSize = 14.000
+name.TextWrapped = true
+
+fnfautoplayer.Name = "fnfautoplayer"
+fnfautoplayer.Parent = Frame
+fnfautoplayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fnfautoplayer.Position = UDim2.new(0.273809463, 0, 0.168983802, 0)
+fnfautoplayer.Size = UDim2.new(0, 56, 0, 64)
+fnfautoplayer.Font = Enum.Font.SourceSans
+fnfautoplayer.Text = "fnf auto player"
+fnfautoplayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+fnfautoplayer.TextScaled = true
+fnfautoplayer.TextSize = 14.000
+fnfautoplayer.TextWrapped = true
+
+rejoingame.Name = "rejoingame"
+rejoingame.Parent = Frame
+rejoingame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoingame.Position = UDim2.new(0.429365069, 0, -0.000741003547, 0)
+rejoingame.Size = UDim2.new(0, 55, 0, 23)
+rejoingame.Font = Enum.Font.SourceSans
+rejoingame.Text = "rejoin "
+rejoingame.TextColor3 = Color3.fromRGB(0, 0, 0)
+rejoingame.TextScaled = true
+rejoingame.TextSize = 14.000
+rejoingame.TextWrapped = true
+
+deletegui.Name = "deletegui"
+deletegui.Parent = Frame
+deletegui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+deletegui.Position = UDim2.new(0.745396852, 0, 0.0176075641, 0)
+deletegui.Size = UDim2.new(0, 44, 0, 26)
+deletegui.Font = Enum.Font.SourceSans
+deletegui.Text = "DELETE gui"
+deletegui.TextColor3 = Color3.fromRGB(0, 0, 0)
+deletegui.TextScaled = true
+deletegui.TextSize = 14.000
+deletegui.TextWrapped = true
+
+esp.Name = "esp"
+esp.Parent = Frame
+esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+esp.Position = UDim2.new(0.273809463, 0, 0.465913832, 0)
+esp.Size = UDim2.new(0, 125, 0, 38)
+esp.Font = Enum.Font.SourceSans
+esp.Text = "esp"
+esp.TextColor3 = Color3.fromRGB(0, 0, 0)
+esp.TextScaled = true
+esp.TextSize = 14.000
+esp.TextWrapped = true
+
+dahood.Name = "dahood"
+dahood.Parent = Frame
+dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dahood.Position = UDim2.new(-8.71930794e-08, 0, 0.168983802, 0)
+dahood.Size = UDim2.new(0, 47, 0, 103)
+dahood.Font = Enum.Font.SourceSans
+dahood.Text = "DaHood"
+dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood.TextScaled = true
+dahood.TextSize = 14.000
+dahood.TextWrapped = true
+
+darkhub.Name = "darkhub"
+darkhub.Parent = Frame
+darkhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.Position = UDim2.new(-8.71930794e-08, 0, 0.641460896, 0)
+darkhub.Size = UDim2.new(0, 46, 0, 77)
+darkhub.Font = Enum.Font.SourceSans
+darkhub.Text = "Dark Hub"
+darkhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+darkhub.TextScaled = true
+darkhub.TextSize = 14.000
+darkhub.TextWrapped = true
+
+drahubgamebutton.Name = "drahubgamebutton"
+drahubgamebutton.Parent = Frame
+drahubgamebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+drahubgamebutton.Position = UDim2.new(0.429365069, 0, 0.104763627, 0)
+drahubgamebutton.Size = UDim2.new(0, 55, 0, 14)
+drahubgamebutton.Font = Enum.Font.SourceSans
+drahubgamebutton.Text = "Dark hub games"
+drahubgamebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+drahubgamebutton.TextScaled = true
+drahubgamebutton.TextSize = 14.000
+drahubgamebutton.TextWrapped = true
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.468571424, 0, 0.641460836, 0)
+TextBox.Size = UDim2.new(0, 92, 0, 44)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "place id here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+gamelist.Name = "gamelist"
+gamelist.Parent = Frame
+gamelist.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gamelist.Position = UDim2.new(1, 0, -0.247706428, 0)
+gamelist.Size = UDim2.new(0, 143, 0, 375)
+gamelist.Visible = false
+gamelist.Font = Enum.Font.SourceSans
+gamelist.Text = "\"Strucid\" : 2377868063,\\n \"HorrificHousing\" : 263761432,\\n \"Arsenal\" : 286090429,\\n \"PhantomForces\" : 292439477,\\n \"Jailbreak\" : 606849621,\\n \"Bad_Business\" : 3233893879,\\n \"Big_Paintball\" : 3527629287,\\n \"AceOfSpadez\" : 2555870920,\\n \"NoScopeSniping\" : 5081773298,\\n \"Bloxburg\" : 185655149,\\n \"TOH\" : 1962086868,\\n \"LegendsOfSpeed\" : 3101667897,\\n \"LiterallyFNF\" : 6483072762,\\n \"BladeQuest\" : 6494529140,\\n \"Weaponry\" : 3297964905,\\n \"Hellreaver\" : 5523314295,\\n \"CounterBlox\" : 301549746,\\n \"DaHood\" : 2788229376,\\n \"Speedrun_4\" : 183364845,\\n \"Ragdoll_Engine\" : 2041312716,\\n \"SCP_Roleplay\" : 5041144419,\\n \"Project_Lazarus\" : 443406476,\\n \"Runker_51\" : 3461767162,\\n \"Energy_Assault\" : 6172932937,\\n \"Meepcity\" : 370731277,\\n \"Clicker_Madness\" : 5490351219,\\n \"Zombie_Uprising\" : 4972091010,\\n \"Notoriety\" : 21532277,\\n \"RIOT\" : 6664138223"
+gamelist.TextColor3 = Color3.fromRGB(0, 0, 0)
+gamelist.TextScaled = true
+gamelist.TextSize = 14.000
+gamelist.TextWrapped = true
+
+closelist.Name = "closelist"
+closelist.Parent = gamelist
+closelist.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+closelist.Position = UDim2.new(1, 0, 0, 0)
+closelist.Size = UDim2.new(0, 32, 0, 30)
+closelist.Font = Enum.Font.SourceSans
+closelist.Text = "close"
+closelist.TextColor3 = Color3.fromRGB(0, 0, 0)
+closelist.TextSize = 14.000
+
+teleport.Name = "teleport"
+teleport.Parent = Frame
+teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleport.Position = UDim2.new(0.605714262, 0, 0.83870858, 0)
+teleport.Size = UDim2.new(0, 69, 0, 20)
+teleport.Font = Enum.Font.SourceSans
+teleport.Text = "teleport"
+teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleport.TextSize = 14.000
+
+
+
+--loadstrings
+
+dahood.MouseButton1Click:connect(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/botmakerr3000/mainload/master/dahood"))() end)
+darkhub.MouseButton1Click:connect(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))() end)
+fnfautoplayer.MouseButton1Click:connect(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))() end)
+arsenal.MouseButton1Click:connect(function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))() end)
+esp.MouseButton1Click:connect(function() loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))() end)
+
+---------------
+
+
+deletegui.MouseButton1Click:connect(function() 
+	Frame:Destroy()
+end)
+drahubgamebutton.MouseButton1Click:connect(function()
+	gamelist.Visible = true
+end)
+rejoingame.MouseButton1Click:connect(function()
+	local ts = game:GetService("TeleportService")
+	local p = game:GetService("Players").LocalPlayer
+ts:Teleport(game.PlaceId, p)
+end)
+----------
+local TeleportService = game:GetService("TeleportService")
+local Place = TextBox.Text
+local player = game.Players.LocalPlayer
+--------
+teleport.MouseButton1Click:connect(function()
+TeleportService:Teleport(Place, player)
+end)
+closelist.MouseButton1Click:connect(function()
+	gamelist.Visible = false
+end)
